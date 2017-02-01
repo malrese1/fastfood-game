@@ -7,13 +7,17 @@ function flip () {
   // $().toggleClass("flip");
   $(this).find('.front').css('display', 'block')
 }
-if (condition1) {
-    block of code to be executed if condition1 is true
-} else if (condition2) {
-    block of code to be executed if the condition1 is false and condition2 is true
-} else {
-    block of code to be executed if the condition1 is false and condition2 is false
-}
+
+
+
+
+
+
+
+
+
+
+
 var objects = [
     {
       element: $("#burgerking"),
@@ -46,3 +50,22 @@ var objects = [
 ]
 objects[0].answer
 "Burger King"
+
+objects[1].answer
+"mcdonalds"
+
+objects[2].answer
+"kfc"
+
+objects[3].answer
+"pizza hut"
+
+objects[4].answer
+"chick fil a"
+
+objects[5].answer
+"taco bell"
+objects[6].answer
+"popeyes"
+objects[7].answer
+"dominos"
